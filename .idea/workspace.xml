@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Adding new branch.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Loja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Loja.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
