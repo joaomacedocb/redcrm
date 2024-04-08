@@ -1,13 +1,13 @@
 package br.com.redleaf.models;
 import java.lang.*;
 
-public class Loja {
+public class Store {
     private String name;
     private String location;
     private String webSite;
     private boolean isEcommerce;
 
-    public Loja(String name, String location, String webSite, boolean isEcommerce) {
+    public Store(String name, String location, String webSite, boolean isEcommerce) {
         this.name = name;
         this.location = location;
         this.webSite = webSite;

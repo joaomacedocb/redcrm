@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Completing class Loja with constructor and getters and setters.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
