@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Completing class Loja with constructor and getters and setters.">
+    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="&quot;Altering name of classes from pt to end&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "270",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
@@ -119,13 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712053939822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Altering name of classes from pt to end&quot;">
+      <option name="closed" value="true" />
+      <created>1712536937244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712536937244</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating readme file." />
     <MESSAGE value="Adding new branch." />
     <MESSAGE value="Completing class Loja with constructor and getters and setters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing class Loja with constructor and getters and setters." />
+    <MESSAGE value="Altering name of classes from pt to en" />
+    <MESSAGE value="&quot;Altering name of classes from pt to end&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Altering name of classes from pt to end&quot;" />
   </component>
 </project>
