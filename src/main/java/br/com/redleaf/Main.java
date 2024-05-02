@@ -1,12 +1,13 @@
 package br.com.redleaf;
 import java.lang.*;
+import java.sql.SQLException;
 
-import br.com.redleaf.models.Customer;
+import br.com.redleaf.models.CustomerOld;
+import br.com.redleaf.repository.CustomerRepository;
 
 public class Main {
-    public static void main(String[] args) {
-        Customer customer1 = new Customer("03029092062","João Macedo",31,"51981759683");
-        System.out.println(customer1.getName());
-        customer1.checkAge();
+    public static void main(String[] args) throws SQLException {
+        CustomerRepository customerRepository = new CustomerRepository();
+        customerRepository.FindAll().forEach(System.out::println);
     }
 }

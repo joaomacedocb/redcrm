@@ -1,12 +1,12 @@
 package br.com.redleaf.models;
 import java.lang.*;
 
-public class Customer {
+public class CustomerOld {
     private String document;
     private String name;
     private Integer age;
     private String phone;
-    public Customer(String document, String name, Integer age, String phone) {
+    public CustomerOld(String document, String name, Integer age, String phone) {
         this.document = document;
         this.name = name;
         this.age = age;
