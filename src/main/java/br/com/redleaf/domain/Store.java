@@ -1,4 +1,4 @@
-package br.com.redleaf.models;
+package br.com.redleaf.domain;
 import java.lang.*;
 
 public class Store {

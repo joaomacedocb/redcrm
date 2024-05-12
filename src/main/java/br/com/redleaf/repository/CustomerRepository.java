@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerRepository {
-    private DatabaseConnection connection;
+    private final DatabaseConnection connection;
 
     public CustomerRepository(){
         this.connection = DatabaseConnection.getInstance();

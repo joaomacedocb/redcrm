@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="&quot;Adding getters and setters to Product class&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/DatabaseConnection.java" afterDir="false" />
+    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="&quot;Adding connection class and CustomerRepository with its first method findAll&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/CustomerOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/models/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.br.com.redleaf.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "270",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.com.redleaf.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;270&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.br.com.redleaf.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -138,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713911140882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;Adding connection class and CustomerRepository with its first method findAll&quot;">
+      <option name="closed" value="true" />
+      <created>1714614388471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714614388471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -151,6 +156,7 @@
     <MESSAGE value="Altering name of classes from pt to en" />
     <MESSAGE value="&quot;Altering name of classes from pt to end&quot;" />
     <MESSAGE value="&quot;Adding getters and setters to Product class&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Adding getters and setters to Product class&quot;" />
+    <MESSAGE value="&quot;Adding connection class and CustomerRepository with its first method findAll&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Adding connection class and CustomerRepository with its first method findAll&quot;" />
   </component>
 </project>
