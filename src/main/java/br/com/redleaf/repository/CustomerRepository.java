@@ -13,7 +13,7 @@ public class CustomerRepository {
         this.connection = DatabaseConnection.getInstance();
     }
 
-    public List<Customer> FindAll () throws SQLException {
+    public List<Customer> FindAll() throws SQLException {
         List<Customer> customers = new ArrayList<>();
 
         PreparedStatement preparedStatement = this.connection
@@ -32,5 +32,26 @@ public class CustomerRepository {
         }
 
         return customers;
+    }
+
+    public Customer findById(int id) throws SQLException {
+
+        Customer customer = null;
+
+        PreparedStatement preparedStatement = this.connection.getConnection().prepareStatement("SELECT * FROM CLIENTE WHERE id = ?");
+        preparedStatement.setInt(1, id);
+
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        if (resultSet.next()) {
+            customer = new Customer();
+            customer.setId(resultSet.getInt("id"));
+            customer.setFirstName(resultSet.getString("nome"));
+            customer.setDocument(resultSet.getString("cpf"));
+            customer.setEmail(resultSet.getString("email"));
+        }
+
+        return customer;
+
     }
 }
