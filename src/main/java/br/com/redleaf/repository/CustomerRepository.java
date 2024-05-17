@@ -24,7 +24,7 @@ public class CustomerRepository {
         while (resultSet.next()){
             Customer customer = new Customer();
             customer.setId(resultSet.getInt("id"));
-            customer.setFirstName(resultSet.getString("nome"));
+            customer.setName(resultSet.getString("nome"));
             customer.setDocument(resultSet.getString("cpf"));
             customer.setEmail(resultSet.getString("email"));
             customers.add(customer);
@@ -47,7 +47,7 @@ public class CustomerRepository {
         if (resultSet.next()) {
             customer = new Customer();
             customer.setId(resultSet.getInt("id"));
-            customer.setFirstName(resultSet.getString("nome"));
+            customer.setName(resultSet.getString("nome"));
             customer.setDocument(resultSet.getString("cpf"));
             customer.setEmail(resultSet.getString("email"));
         }
@@ -63,7 +63,7 @@ public class CustomerRepository {
         PreparedStatement preparedStatement = this.connection
                 .getConnection().prepareStatement(insertSql);
 
-        preparedStatement.setString(1, customer.getFirstName());
+        preparedStatement.setString(1, customer.getName());
         preparedStatement.setString(2, customer.getEmail());
         preparedStatement.setString(3, customer.getDocument());
 

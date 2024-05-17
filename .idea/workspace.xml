@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Creating method to search on database a customer by id.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Creating method to insert customers information into the database">
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715821744652</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creating method to insert customers information into the database">
+      <option name="closed" value="true" />
+      <created>1715909785854</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715909785854</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creating method to insert customers information into the database">
+      <option name="closed" value="true" />
+      <created>1715909797449</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715909797449</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -173,6 +189,7 @@
     <MESSAGE value="&quot;Adding connection class and CustomerRepository with its first method findAll&quot;" />
     <MESSAGE value="&quot;Updating connection class and CustomerRepository with its first method findAll&quot;" />
     <MESSAGE value="Creating method to search on database a customer by id." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating method to search on database a customer by id." />
+    <MESSAGE value="Creating method to insert customers information into the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating method to insert customers information into the database" />
   </component>
 </project>
