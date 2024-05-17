@@ -38,7 +38,8 @@ public class CustomerRepository {
 
         Customer customer = null;
 
-        PreparedStatement preparedStatement = this.connection.getConnection().prepareStatement("SELECT * FROM CLIENTE WHERE id = ?");
+        PreparedStatement preparedStatement = this.connection
+                .getConnection().prepareStatement("SELECT * FROM CLIENTE WHERE id = ?");
         preparedStatement.setInt(1, id);
 
         ResultSet resultSet = preparedStatement.executeQuery();
@@ -52,6 +53,23 @@ public class CustomerRepository {
         }
 
         return customer;
-
     }
+
+    public boolean insert (Customer customer) throws SQLException {
+        boolean inserted = false;
+
+        String insertSql = "INSERT INTO cliente (nome, email, cpf) VALUES (?, ?, ?)";
+
+        PreparedStatement preparedStatement = this.connection
+                .getConnection().prepareStatement(insertSql);
+
+        preparedStatement.setString(1, customer.getFirstName());
+        preparedStatement.setString(2, customer.getEmail());
+        preparedStatement.setString(3, customer.getDocument());
+
+        inserted = preparedStatement.execute();
+
+        return inserted;
+    };
+
 }
