@@ -55,7 +55,7 @@ public class CustomerRepository {
         return customer;
     }
 
-    public boolean insert (Customer customer) throws SQLException {
+    public boolean insert(Customer customer) throws SQLException {
         boolean inserted = false;
 
         String insertSql = "INSERT INTO cliente (nome, email, cpf) VALUES (?, ?, ?)";
@@ -70,6 +70,33 @@ public class CustomerRepository {
         inserted = preparedStatement.execute();
 
         return inserted;
-    };
+    }
+
+    public boolean update(Customer customer) throws SQLException {
+        boolean updated = false;
+
+        if (customer == null || customer.getId() >= 0){
+            return false;
+        }
+
+        String updateSql = "UPDATE cliente " +
+                "SET nome = ?," +
+                "SET email = ?," +
+                "SET cpf = ? " +
+                "WHERE id = ?";
+
+
+        PreparedStatement preparedStatement = this.connection
+                .getConnection().prepareStatement(updateSql);
+
+        preparedStatement.setString(1,customer.getName());
+        preparedStatement.setString(2, customer.getEmail());
+        preparedStatement.setString(3, customer.getDocument());
+        preparedStatement.setInt(4,customer.getId());
+
+        updated = preparedStatement.execute();
+
+        return updated;
+    }
 
 }

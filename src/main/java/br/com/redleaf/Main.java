@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws SQLException {
 
         CustomerRepository customerRepository = new CustomerRepository();
-        customerRepository.insert(new Customer("Ana Morgan","ana.morgan@email.com","03029088876"));
+        customerRepository.insert(new Customer("Junior Silva","jrsilva@email.com","03029092062"));
         customerRepository.FindAll().forEach(System.out::println);
     }
 }
