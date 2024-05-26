@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Creating insert update method in CustomerRepository">
+    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Correcting update method in CustomerRepository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716133579070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Correcting update method in CustomerRepository">
+      <option name="closed" value="true" />
+      <created>1716730916522</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716730916522</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -244,6 +251,7 @@
     <MESSAGE value="Updating customer class to improve the pattern related to database model" />
     <MESSAGE value="Creating insert method in CustomerRepository" />
     <MESSAGE value="Creating insert update method in CustomerRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating insert update method in CustomerRepository" />
+    <MESSAGE value="Correcting update method in CustomerRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting update method in CustomerRepository" />
   </component>
 </project>

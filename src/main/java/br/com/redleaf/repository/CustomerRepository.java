@@ -85,8 +85,6 @@ public class CustomerRepository {
                 " cpf = ?" +
                 " WHERE id = ?";
 
-        System.out.println(updateSql);
-
         PreparedStatement preparedStatement = this.connection
                 .getConnection().prepareStatement(updateSql);
 
@@ -98,6 +96,18 @@ public class CustomerRepository {
         updated = preparedStatement.execute();
 
         return updated;
+    }
+
+    public boolean delete(int id) throws SQLException {
+        boolean deleted = false;
+
+        PreparedStatement preparedStatement = this.connection
+                .getConnection().prepareStatement("DELETE from cliente WHERE id = ?");
+
+        preparedStatement.setInt(1, id);
+
+        deleted = preparedStatement.execute();
+        return deleted;
     }
 
 }
