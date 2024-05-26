@@ -9,8 +9,8 @@ import br.com.redleaf.repository.CustomerRepository;
 public class Main {
     public static void main(String[] args) throws SQLException {
 
-        CustomerRepository customerRepository = new CustomerRepository();
-        customerRepository.insert(new Customer("Junior Silva","jrsilva@email.com","03029092062"));
-        customerRepository.FindAll().forEach(System.out::println);
+        CustomerRepository c1 = new CustomerRepository();
+        c1.update(new Customer(100,"Sam Silva","samsil@email.com","12345678944"));
+        c1.FindAll().forEach(System.out::println);
     }
 }

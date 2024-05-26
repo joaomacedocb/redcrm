@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Creating insert method in CustomerRepository">
+    <list default="true" id="960ffb15-1b51-473a-a920-7de1e55b13bf" name="Changes" comment="Creating insert update method in CustomerRepository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/domain/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/redleaf/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,11 +205,30 @@
       <option name="project" value="LOCAL" />
       <updated>1715910913855</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Creating insert update method in CustomerRepository">
+      <option name="closed" value="true" />
+      <created>1716133579070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716133579070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating readme file." />
@@ -223,6 +243,7 @@
     <MESSAGE value="Creating method to insert customers information into the database" />
     <MESSAGE value="Updating customer class to improve the pattern related to database model" />
     <MESSAGE value="Creating insert method in CustomerRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating insert method in CustomerRepository" />
+    <MESSAGE value="Creating insert update method in CustomerRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating insert update method in CustomerRepository" />
   </component>
 </project>

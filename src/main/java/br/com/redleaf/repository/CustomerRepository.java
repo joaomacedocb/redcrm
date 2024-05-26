@@ -75,16 +75,17 @@ public class CustomerRepository {
     public boolean update(Customer customer) throws SQLException {
         boolean updated = false;
 
-        if (customer == null || customer.getId() >= 0){
+        if (customer == null || customer.getId() <= 0){
             return false;
         }
 
         String updateSql = "UPDATE cliente " +
                 "SET nome = ?," +
-                "SET email = ?," +
-                "SET cpf = ? " +
-                "WHERE id = ?";
+                " email = ?," +
+                " cpf = ?" +
+                " WHERE id = ?";
 
+        System.out.println(updateSql);
 
         PreparedStatement preparedStatement = this.connection
                 .getConnection().prepareStatement(updateSql);
